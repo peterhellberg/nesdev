@@ -68,6 +68,10 @@ clean:
 
 With this makefile you should be able to compile all of the examples under OS X.
 
+### [PPU Palettes](http://wiki.nesdev.com/w/index.php/PPU_palettes)
+
+![2C03 and 2C05](http://assets.c7.se/skitch/PPU_palettes-20150812-233132.png)
+
 ## Links
 
  - <http://nesdev.com/#Hardware>
