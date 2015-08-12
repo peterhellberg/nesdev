@@ -16,11 +16,11 @@ Then install [fceux](http://www.fceux.com/) (a NES emulator) from `homebrew/game
 brew install homebrew/games/fceux
 ```
 
-## Read this
+## Read this article
 
 [Programming NES games in C](http://shiru.untergrund.net/articles/programming_nes_games_in_c.htm)
 
-## Watch this
+## Watch the [NES C Programming Examples video](https://www.youtube.com/watch?v=jvgz5sY5xUw)
 
 [![NES C Programming Examples](http://assets.c7.se/skitch/NES_C_Programming_Examples-20150812-214421.png)](https://www.youtube.com/watch?v=jvgz5sY5xUw)
 
