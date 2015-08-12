@@ -22,12 +22,12 @@ brew install homebrew/games/fceux
 
 ## Makefile for the [CC65 NES examples](https://shiru.untergrund.net/files/src/cc65_nes_examples.zip)
 
-```bash
-compile =                                                \
+```make
+compile = \
 	ca65 crt0.s;                                           \
 	cc65 -Oi $(1).c --add-source;                          \
 	ca65 $(1).s;                                           \
-	ld65 -C $(2).cfg -o $(1).nes crt0.o $(1).o runtime.lib;\
+	ld65 -C $(2).cfg -o $(1).nes crt0.o $(1).o runtime.lib \
 
 all: 1 2 3 4 5 6 7 8 9
 
