@@ -20,6 +20,10 @@ brew install homebrew/games/fceux
 
 [Programming NES games in C](http://shiru.untergrund.net/articles/programming_nes_games_in_c.htm)
 
+## Watch this
+
+[![NES C Programming Examples](https://i.ytimg.com/vi/jvgz5sY5xUw/hqdefault.jpg)](https://www.youtube.com/watch?v=jvgz5sY5xUw)
+
 ## Makefile for the [CC65 NES examples](https://shiru.untergrund.net/files/src/cc65_nes_examples.zip)
 
 ```make
