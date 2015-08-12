@@ -16,23 +16,25 @@ unpack this folder into that directory (where /bin/ etc is located), run `make`
 
 ## Examples:
 
-1: outputs some text, including PAL/NTSC detection
-2: moving balls using sprites
-3: pad polling, nametable updating when display is enabled
-4: metasprites, two pads polling, collision detection
-5: unpacking a RLE-packed nametable created with NES Screen Tool into the VRAM
-6: shows virtual background and sprite brightness, controlled with the gamepad
-7: shows scrolling and split screen scrolling (split support has many limitations)
-8: music and sound effects
-9: very basic non-looped vertical scrolling
-10: non-looped vertical scrolling, with 2x2 metatiles and collision check
-11: it is just examples 2 and 10 combined to show up max action in a C program
+1. Outputs some text, including PAL/NTSC detection
+2. Moving balls using sprites
+3. Pad polling, nametable updating when display is enabled
+4. Metasprites, two pads polling, collision detection
+5. Unpacking a RLE-packed nametable created with NES Screen Tool into the VRAM
+6. Shows virtual background and sprite brightness, controlled with the gamepad
+7. Shows scrolling and split screen scrolling (split support has many limitations)
+8. Music and sound effects
+9. Very basic non-looped vertical scrolling
+10. Non-looped vertical scrolling, with 2x2 metatiles and collision check
+11. It is just examples 2 and 10 combined to show up max action in a C program
 
 ![example11](http://assets.c7.se/skitch/example11-20150813-013735.png)
 
-test_nam.h and bgsplit_nam.h files created using NES Screen Tool:
-<http://shiru.untergrund.net/files/nesst.zip>
+`test_nam.h` and `bgsplit_nam.h` files created using NES Screen Tool:
+
+ - <http://shiru.untergrund.net/files/nesst.zip>
 
 Music and sound effects created using FamiTracker and FamiTone2 library tools.
-<http://famitracker.com/>
-<http://shiru.untergrund.net/files/src/famitone2.zip>
+
+ - <http://famitracker.com/>
+ - <http://shiru.untergrund.net/files/src/famitone2.zip>
