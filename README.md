@@ -10,6 +10,15 @@ Install [cc65](http://cc65.github.io/cc65/) (a freeware C compiler for 6502 base
 brew install cc65
 ```
 
+Add Vim syntax highlighting for the ca65 assembler using [Vundle](https://github.com/VundleVim/Vundle.vim)
+
+```vim
+Plugin 'maxbane/vim-asm_ca65'
+
+" ASM ca65
+au BufRead,BufNewFile *.s set filetype=asm_ca65
+```
+
 ### Emulators (running under OS X)
 
 - [Nestopia](http://0ldsk00l.ca/nestopia/)
