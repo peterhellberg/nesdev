@@ -10,11 +10,15 @@ Install [cc65](http://cc65.github.io/cc65/) (a freeware C compiler for 6502 base
 brew install cc65
 ```
 
-Then install [fceux](http://www.fceux.com/) (a NES emulator) from `homebrew/games`.
+### Emulators (running under OS X)
 
-```bash
-brew install homebrew/games/fceux
-```
+- [Nestopia](http://0ldsk00l.ca/nestopia/)
+- [FCEUX](http://www.fceux.com/)
+
+I’ve also been using a few different NES emulators written in Go:
+
+ - [nes](https://github.com/fogleman/nes) (my favorite so far)
+ - [nintengo](https://github.com/nwidger/nintengo)
 
 ## Read the [Programming NES games in C](http://shiru.untergrund.net/articles/programming_nes_games_in_c.htm) article
 
