@@ -87,4 +87,5 @@ With this makefile you should be able to compile all of the examples under OS X.
 
 ## Links
 
- - <http://nesdev.com/#Hardware>
+ - [Hardware Info](http://nesdev.com/#Hardwar))
+ - [NES CHR Editor](http://www.ninjasftw.com:8080/squirrel/nes_chr/) a (Mac OS X) sprite editor for Nintendo Entertainment System games.
