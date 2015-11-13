@@ -134,7 +134,7 @@ void main(void) {
         }
       }
 
-      if(died) {
+      if(died && lives>0) {
         --lives;
       }
     } else {
