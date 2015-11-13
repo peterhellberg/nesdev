@@ -5,7 +5,7 @@ static unsigned char i,j;
 static unsigned char spr;
 static unsigned char touch;
 
-#define LOGOS_MAX 48
+#define LOGOS_MAX 32
 
 //logo parameters
 static unsigned char logo_x[LOGOS_MAX];
@@ -34,7 +34,7 @@ void put_str(unsigned int adr,const char *str) {
 
 
 void main(void) {
-  static unsigned char m,t,x,y,lives,died;
+  static unsigned char t,x,y,lives,died;
 
   touch=0;//collision flag
 
@@ -46,15 +46,15 @@ void main(void) {
   pal_col(1, 0x20); // set text color
 
   put_str(NTADR_A(6,6),"ATHEGA CODE BASE 2015");
-  put_str(NTADR_A(6,9),"PRESS A FOR +10 LIVES");
+  put_str(NTADR_A(6,9),"PRESS A TO ADD 1 LIFE");
 
   music_play(0);
 
   //enable rendering
   ppu_on_all();
 
-  // start with 10 lives;
-  lives=10;
+  // start with 3 lives;
+  lives=3;
 
   x=128;
   y=120;
@@ -91,10 +91,10 @@ void main(void) {
     if(t&PAD_UP)    if(y>8)   y-=2;
     if(t&PAD_DOWN)  if(y<230) y+=2;
 
-    if(t&PAD_A){
+    if(t&PAD_A && lives<11){
       music_play(0);
       sfx_play(0,0);
-      lives+=10;
+      ++lives;
     }
 
     // reset sprite
